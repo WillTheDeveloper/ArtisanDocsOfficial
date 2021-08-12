@@ -1,4 +1,5 @@
 <div>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <div x-data="{ mobileMenu: false }">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
             <nav class="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
@@ -28,13 +29,6 @@
 
                     <a href="/support" class="font-medium text-gray-500 hover:text-emerald-400">Support</a>
                 </div>
-                <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
-                    {{--<span class="inline-flex rounded-md shadow">
-                      <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50">
-                        Log in
-                      </a>
-                    </span>--}}
-                </div>
             </nav>
         </div>
 
@@ -61,6 +55,8 @@
                     </div>
                 </div>
                 <div class="px-2 pt-2 pb-3">
+                    <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
+
                     <a href="/laravel" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Laravel</a>
 
                     <a href="/tailwind" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Tailwind</a>
@@ -71,9 +67,6 @@
 
                     <a href="/support" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Support</a>
                 </div>
-                <a href="#" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
-                    Log in
-                </a>
             </div>
         </div>
     </div>

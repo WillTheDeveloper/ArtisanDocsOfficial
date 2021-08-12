@@ -15,13 +15,17 @@
 <div class="md:grid md:grid-cols-3 w-full">
         <!-- Static sidebar for desktop -->
     <div class="hidden md:flex justify-center">
-        <div class="flex flex-col w-44 border-r border-gray-200">
+        <div class="flex flex-col w-44">
             <!-- Sidebar component, swap this element with another sidebar if you like -->
             <div class="flex flex-col flex-grow pb-4 overflow-y-auto">
                 <div class="mt-5 flex-grow flex flex-col">
                     <nav class="flex-1 px-2 space-y-1">
                         <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
                         <a href="#" class="bg-red-500 text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                            Introduction
+                        </a>
+
+                        <a href="#" class="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Prerequisites
                         </a>
 
