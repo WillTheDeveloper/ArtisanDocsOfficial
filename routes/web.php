@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//MAIN PAGES
+//MAIN PAGES - root directory
 Route::get('/', function () {
     return view('home');
 });
@@ -22,23 +22,22 @@ Route::get('/support', function () {
     return view('support');
 });
 
-//LARAVEL PAGES
+//LARAVEL PAGES - inside laravel directory
 Route::get('/laravel', function () {
     return view('laravel.laravel');
 });
 
-//TAILWIND PAGES
+//TAILWIND PAGES - inside tailwind directory
 Route::get('/tailwind', function () {
     return view('tailwind.tailwind');
 });
 
-//LIVEWIRE PAGES
+//LIVEWIRE PAGES - inside livewiredocs directory
 Route::get('/livewire', function () {
-    return view('livewire.livewire');
+    return view('livewiredocs.livewire');
 });
 
-
-//DATABASE PAGES
+//DATABASE PAGES - inside database directory
 Route::get('/database', function () {
     return view('database.database');
 });
