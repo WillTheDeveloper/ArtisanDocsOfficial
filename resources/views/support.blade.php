@@ -7,7 +7,7 @@
     <title>Artisan Docs | Support</title>
 </head>
 
-<body>
+<body class="bg-gray-50">
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-gray-50 overflow-hidden">
@@ -50,17 +50,17 @@
                         </div>
                     </div>
                     <div class="hidden md:flex md:space-x-10">
-                        <a href="/" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
+                        <a href="/" class="font-medium text-gray-500 hover:text-amber-500">Home</a>
 
-                        <a href="/laravel" class="font-medium text-gray-500 hover:text-gray-900">Laravel</a>
+                        <a href="/laravel" class="font-medium text-gray-500 hover:text-red-500">Laravel</a>
 
-                        <a href="/tailwind" class="font-medium text-gray-500 hover:text-gray-900">Tailwind</a>
+                        <a href="/tailwind" class="font-medium text-gray-500 hover:text-cyan-500">Tailwind</a>
 
-                        <a href="/livewire" class="font-medium text-gray-500 hover:text-gray-900">Livewire</a>
+                        <a href="/livewire" class="font-medium text-gray-500 hover:text-indigo-400">Livewire</a>
 
-                        <a href="/database" class="font-medium text-gray-500 hover:text-gray-900">Database</a>
+                        <a href="/database" class="font-medium text-gray-500 hover:text-blue-500">Database</a>
 
-                        <a href="/support" class="font-medium text-gray-500 hover:text-gray-900">Support</a>
+                        <a href="/support" class="font-medium text-gray-500 hover:text-emerald-400">Support</a>
                     </div>
                     <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                         {{--<span class="inline-flex rounded-md shadow">
