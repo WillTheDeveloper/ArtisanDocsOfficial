@@ -27,6 +27,10 @@ Route::get('/laravel', function () {
     return view('laravel.laravel');
 });
 
+Route::get('/laravel/prerequisites', function () {
+    return view('laravel.prerequisites');
+});
+
 //TAILWIND PAGES - inside tailwind directory
 Route::get('/tailwind', function () {
     return view('tailwind.tailwind');
