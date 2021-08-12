@@ -13,6 +13,32 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//MAIN PAGES
 Route::get('/', function () {
     return view('home');
+});
+
+Route::get('/support', function () {
+    return view('support');
+});
+
+//LARAVEL PAGES
+Route::get('/laravel', function () {
+    return view('laravel.laravel');
+});
+
+//TAILWIND PAGES
+Route::get('/tailwind', function () {
+    return view('tailwind.tailwind');
+});
+
+//LIVEWIRE PAGES
+Route::get('/livewire', function () {
+    return view('livewire.livewire');
+});
+
+
+//DATABASE PAGES
+Route::get('/database', function () {
+    return view('database.database');
 });
