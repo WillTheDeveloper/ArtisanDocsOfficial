@@ -12,12 +12,12 @@
 {{--DOCS GO BELOW HERE--}}
 
 
-<div class="h-screen flex overflow-hidden">
+<div class="md:grid md:grid-cols-3 w-full">
         <!-- Static sidebar for desktop -->
-    <div class="hidden md:flex md:flex-shrink-0">
-        <div class="flex flex-col w-44">
+    <div class="hidden md:flex justify-center">
+        <div class="flex flex-col w-44 border-r border-gray-200">
             <!-- Sidebar component, swap this element with another sidebar if you like -->
-            <div class="flex flex-col flex-grow border-r border-gray-200 pb-4 overflow-y-auto">
+            <div class="flex flex-col flex-grow pb-4 overflow-y-auto">
                 <div class="mt-5 flex-grow flex flex-col">
                     <nav class="flex-1 px-2 space-y-1">
                         <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
@@ -50,9 +50,9 @@
         </div>
     </div>
     <div class="flex justify-center">
-        <main class="flex justify-center overflow-y-auto focus:outline-none">
+        <main class="overflow-y-auto">
             <div>
-                <div class="max-w-4xl mx-auto px-4 sm:px-6 md:px-8">
+                <div>
                     <!-- Replace with your content -->
                     <div class="py-4">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorem enim expedita ipsam nobis, non quod vitae. Cupiditate eaque esse ipsam ipsum laudantium odit provident similique sit soluta sunt. Ab alias amet beatae deserunt dignissimos earum eligendi id laborum magni, maiores necessitatibus nesciunt nostrum obcaecati odit, quam qui ratione reprehenderit rerum sapiente veniam veritatis voluptates, voluptatibus. Accusamus modi nam repudiandae. Eligendi enim excepturi iusto magni nihil, pariatur ratione voluptatem! Aliquam amet dolores error explicabo itaque iure laborum non qui. Cupiditate deserunt esse incidunt praesentium quaerat. Animi asperiores assumenda dolorem ducimus fugit ipsam natus nostrum quam, quas reiciendis suscipit, temporibus unde. Alias atque ea, fugiat ipsum labore praesentium quo quod sed sit totam. Accusantium architecto consectetur eius itaque officiis reiciendis saepe ut vitae? Ab est excepturi fugit molestias odio optio similique. Laborum magni neque nobis, obcaecati qui recusandae reiciendis vitae. Ab aliquid aspernatur deleniti dolores est, fuga impedit nisi nulla omnis voluptas. Animi, atque consectetur consequatur consequuntur corporis cum deserunt explicabo incidunt ipsa itaque modi molestias nam natus nemo quo repellat reprehenderit saepe sed sequi similique sunt ut voluptatem voluptatum! Animi necessitatibus placeat praesentium temporibus voluptatibus. Aut beatae deleniti laudantium magnam perspiciatis quas qui, quod recusandae rerum tempore. Alias, est et!</p>
