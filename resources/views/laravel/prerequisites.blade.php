@@ -25,7 +25,7 @@
                             Introduction
                         </a>
 
-                        <a href="/laravel/prerequisites" class="bg-red-500 text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        <a href="/laravel/prerequisites" class="bg-red-500 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Prerequisites
                         </a>
 

@@ -21,7 +21,7 @@
                 <div class="mt-5 flex-grow flex flex-col">
                     <nav class="flex-1 px-2 space-y-1">
                         <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
-                        <a href="/laravel" class="bg-red-500 text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        <a href="/laravel" class="bg-red-500 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Introduction
                         </a>
 
