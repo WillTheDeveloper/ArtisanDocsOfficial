@@ -10,6 +10,8 @@
 <body class="bg-gray-50">
 @livewire('home-header')
 
+@livewire('development-banner')
+
 <div class="md:grid md:grid-cols-3 w-full">
     <!-- Static sidebar for desktop -->
     <div class="hidden md:flex justify-center">
@@ -19,7 +21,8 @@
                 <div class="mt-5 flex-grow flex flex-col">
                     <nav class="flex-1 px-2 space-y-1">
                         <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
-                        <a href="/laravel" class="bg-amber-500 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        <a href="/laravel"
+                           class="bg-amber-500 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Welcome
                         </a>
                     </nav>
@@ -33,9 +36,11 @@
                 <div>
                     <div class="py-4">
                         <p class="text-amber-500 text-3xl font-extrabold">Welcome</p>
-                        <p>So you want to learn Laravel? Well you have to come to the right place. Although something I should mention is that these are the unofficial documentation for it.
+                        <p>So you want to learn Laravel? Well you have to come to the right place. Although something I
+                            should mention is that these are the unofficial documentation for it.
                             I dedicated to make this site as part of something to do in my free time.</p>
-                        <p>There is a git repository for this website so if you would like to suggest any changes then they are welcome. Might be kept private until its initially completed.</p>
+                        <p>There is a git repository for this website so if you would like to suggest any changes then
+                            they are welcome. Might be kept private until its initially completed.</p>
                     </div>
                 </div>
             </div>
