@@ -2,17 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
 //MAIN PAGES - root directory
 Route::get('/', function () {
     return view('home');
@@ -20,6 +9,14 @@ Route::get('/', function () {
 
 Route::get('/support', function () {
     return view('support');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/about', function () {
+    return view('about');
 });
 
 //LARAVEL PAGES - inside laravel directory
@@ -31,9 +28,45 @@ Route::get('/laravel/prerequisites', function () {
     return view('laravel.prerequisites');
 });
 
+Route::get('/laravel/installation', function () {
+    return view('laravel.installation');
+});
+
+Route::get('/laravel/versioncontrol', function () {
+    return view('laravel.versioncontrol');
+});
+
+Route::get('/laravel/folderstructure', function () {
+    return view('laravel.folderstructure');
+});
+
+Route::get('/laravel/firstproject', function () {
+    return view('laravel.firstproject');
+});
+
+Route::get('/laravel/installingpackages', function () {
+    return view('laravel.installingpackages');
+});
+
+Route::get('/laravel/troubleshooting', function () {
+    return view('laravel.troubleshooting');
+});
+
 //TAILWIND PAGES - inside tailwind directory
 Route::get('/tailwind', function () {
     return view('tailwind.tailwind');
+});
+
+Route::get('/tailwind/prerequisites', function () {
+    return view('tailwind.prerequisites');
+});
+
+Route::get('/tailwind/installation', function () {
+    return view('tailwind.installation');
+});
+
+Route::get('/tailwind/troubleshooting', function () {
+    return view('tailwind.troubleshooting');
 });
 
 //LIVEWIRE PAGES - inside livewiredocs directory
