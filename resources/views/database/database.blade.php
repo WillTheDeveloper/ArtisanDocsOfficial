@@ -9,7 +9,8 @@
 
 <body class="bg-gray-50">
 @livewire('database-header')
-{{--PUT EVERYTHING ELSE BELOW HERE--}}
+
+@livewire('development-banner')
 
 
 </body>
