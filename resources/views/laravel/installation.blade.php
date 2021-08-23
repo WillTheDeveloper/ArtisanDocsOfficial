@@ -10,6 +10,8 @@
 <body class="bg-gray-50">
 @livewire('laravel-header')
 
+@livewire('development-banner')
+
 <div class="md:grid md:grid-cols-3 w-full">
     <!-- Static sidebar for desktop -->
     <div class="hidden md:flex justify-center">

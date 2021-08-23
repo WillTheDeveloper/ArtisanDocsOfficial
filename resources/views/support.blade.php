@@ -58,6 +58,7 @@
             </div>
         </main>
     </div>
+    @livewire('development-banner')
 </div>
 
 

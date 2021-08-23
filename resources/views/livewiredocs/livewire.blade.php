@@ -10,5 +10,7 @@
 <body class="bg-gray-50">
 @livewire('livewire-header')
 
+@livewire('development-banner')
+
 
 </body>
