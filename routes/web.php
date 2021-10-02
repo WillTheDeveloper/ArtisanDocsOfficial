@@ -63,6 +63,22 @@ Route::get('/laravel/packages/nova/creatingresources', function () {
     return view('laravel.packages.nova.creatingresources');
 });
 
+Route::get('/laravel/packages/nova/resourcefields', function () {
+    return view('laravel.packages.nova.resourcefields');
+});
+
+//VAPOR
+Route::get('/laravel/packages/vapor/vaporinstallation', function () {
+    return view('laravel.packages.vapor.vaporinstallation');
+});
+
+Route::get('/laravel/packages/vapor/settingupvapor', function () {
+    return view('laravel.packages.vapor.settingupvapor');
+});
+
+Route::get('/laravel/packages/vapor/deployingtovapor', function () {
+    return view('laravel.packages.vapor.deployingtovapor');
+});
 
 //TAILWIND PAGES - inside tailwind directory
 Route::get('/tailwind', function () {

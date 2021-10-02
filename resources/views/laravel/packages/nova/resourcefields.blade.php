@@ -4,11 +4,10 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <title>Artisan Docs</title>
+    <title>Artisan Docs | Laravel</title>
 </head>
 
 <body class="bg-gray-50">
-
 @livewire('laravel-header')
 
 @livewire('development-banner')
@@ -22,7 +21,7 @@
                 <div class="mt-5 flex-grow flex flex-col">
                     <nav class="flex-1 px-2 space-y-1">
                         <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
-                        <a href="/laravel" class="bg-red-500 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        <a href="/laravel" class="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Introduction
                         </a>
 
@@ -30,7 +29,7 @@
                             Prerequisites
                         </a>
 
-                        <a href="/laravel/installation" class="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        <a href="/laravel/installation" class="bg-red-500 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Installation
                         </a>
 
@@ -62,27 +61,42 @@
         <main class="overflow-y-auto">
             <div>
                 <div>
+                    <!-- Replace with your content -->
                     <div class="py-4">
-                        <p class="text-red-500 text-4xl font-extrabold underline">Creating resources</p>
+                        <p id="top" class="text-red-500 text-4xl font-extrabold underline">Resource Fields</p>
                         <br>
-                        <p class="text-red-500 text-3xl font-extrabold">Creating the model</p>
-                        <p>For every resource that we make inside of nova, we need to create a model. This will aid you when creating relationships with other resources.</p>
-                        <p>In order to create a model you need to use this command in the command line from the root of your project.</p>
-                        <p>You need to use the singular format for all the words when naming the model. Please note that the model name will be the exact same as the resource name.</p>
-                        <p>Run this command: <b class="bg-red-300 text-white">php artisan make:model Post</b></p>
+                        <p class="text-red-500 text-3xl font-extrabold">List of fields</p>
+                        <p>Click on the relevant field in the list below to access the relevant information.</p>
+                        <ul class="list-disc pl-6">
+                            <li><a href="#text">Text</a></li>
+                            <li><a href="#textarea">Text area</a></li>
+                            <li><a href="#select">Select</a></li>
+                        </ul>
                         <br>
-                        <p class="text-red-500 text-3xl font-extrabold">Creating the resource</p>
-                        <p>It is important to make sure this is singular as Laravel will automatically interpret the plural format of it when accessing the dashboard.</p>
-                        <p>Run this command to create the resource: <b class="bg-red-300 text-white">php artisan nova:resource Post</b></p>
+
+                        <p id="text" class="text-red-500 text-3xl font-extrabold">Text</p>
+                        <p>Text fields would be created if you want to be able to input a small amount of text.</p>
+                        <p>Make sure to import the class otherwise this will not work.</p>
+                        <p class="bg-red-300 text-white font-extrabold">Text::make('NAME OF FIELD', 'NAME OF DATABASE COLUMN')</p>
+                        <p class="text-xs text-red-500"><a href="#top">Go back to top</a></p>
                         <br>
-                        <p>Now the resource should appear inside the Nova dashboard.</p>
+
+                        <p id="textarea" class="text-red-500 text-3xl font-extrabold">Text Area</p>
+                        <p>Text areas are larger text boxes that are easier to use when inputting paragraphs or large amounts of text.</p>
+                        <p class="bg-red-300 text-white font-extrabold">Textarea::make('NAME OF FIELD', 'NAME OF DATABASE COLUMN')</p>
+                        <p class="text-xs text-red-500"><a href="#top">Go back to top</a></p>
                         <br>
-                        <p>Find out how to create fields inside of the resources by going to <a class="font-bold text-red-500" href="resourcefields">here</a>.</p>
+
+                        <p id="select" class="text-red-500 text-3xl font-extrabold">Select</p>
+                        <p>Select would be used for a drop down that allows you to pick from options that you define.</p>
+                        <p class="bg-red-300 text-white font-extrabold">Select::make('NAME OF FIELD', 'NAME OF DATABASE COLUMN')</p>
+                        <p class="text-xs text-red-500"><a href="#top">Go back to top</a></p>
+                        <br>
+
                     </div>
+                    <!-- /End replace -->
                 </div>
             </div>
         </main>
     </div>
 </div>
-
-</body>
