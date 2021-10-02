@@ -52,6 +52,18 @@ Route::get('/laravel/troubleshooting', function () {
     return view('laravel.troubleshooting');
 });
 
+//LARAVEL PACKAGES
+
+//NOVA
+Route::get('/laravel/packages/nova/novainstallation', function () {
+    return view('laravel.packages.nova.novainstallation');
+});
+
+Route::get('/laravel/packages/nova/creatingresources', function () {
+    return view('laravel.packages.nova.creatingresources');
+});
+
+
 //TAILWIND PAGES - inside tailwind directory
 Route::get('/tailwind', function () {
     return view('tailwind.tailwind');
