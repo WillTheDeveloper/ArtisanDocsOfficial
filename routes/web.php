@@ -102,6 +102,18 @@ Route::get('/livewire', function () {
     return view('livewiredocs.livewire');
 });
 
+Route::get('/livewire/prerequisites', function () {
+    return view('livewiredocs.prerequisites');
+});
+
+Route::get('/livewire/installation', function () {
+    return view('livewiredocs.installation');
+});
+
+Route::get('/livewire/components', function () {
+    return view('livewiredocs.components');
+});
+
 //DATABASE PAGES - inside database directory
 Route::get('/database', function () {
     return view('database.database');

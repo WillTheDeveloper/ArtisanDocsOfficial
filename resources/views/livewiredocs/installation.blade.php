@@ -21,7 +21,7 @@
                 <div class="mt-5 flex-grow flex flex-col">
                     <nav class="flex-1 px-2 space-y-1">
                         <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
-                        <a href="/livewire" class="bg-indigo-400 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        <a href="/livewire" class="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Introduction
                         </a>
 
@@ -29,7 +29,7 @@
                             Prerequisites
                         </a>
 
-                        <a href="/livewire/installation" class="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        <a href="/livewire/installation" class="bg-indigo-400 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Installation
                         </a>
 
@@ -48,10 +48,10 @@
             <div>
                 <div>
                     <div class="py-4">
-                        <p class="text-indigo-400 text-4xl font-extrabold underline">Introduction</p>
+                        <p class="text-indigo-400 text-4xl font-extrabold underline">Installation</p>
                         <br>
-                        <p class="text-indigo-400 text-3xl font-extrabold">Getting started</p>
-                        <p>Livewire is really good for making your web development more efficient because you spend less time recreating things and instead you can just reuse components.</p>
+                        <p class="text-indigo-400 text-3xl font-extrabold">Setting up</p>
+                        <p>Installing livewire is rather quite straight forward. Its just a single command and them bam, its done.</p>
                     </div>
                 </div>
             </div>

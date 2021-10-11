@@ -21,7 +21,7 @@
                 <div class="mt-5 flex-grow flex flex-col">
                     <nav class="flex-1 px-2 space-y-1">
                         <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
-                        <a href="/livewire" class="bg-indigo-400 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        <a href="/livewire" class="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Introduction
                         </a>
 
@@ -33,7 +33,7 @@
                             Installation
                         </a>
 
-                        <a href="/livewire/components" class="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                        <a href="/livewire/components" class="bg-indigo-400 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                             Components
                         </a>
 
@@ -48,10 +48,16 @@
             <div>
                 <div>
                     <div class="py-4">
-                        <p class="text-indigo-400 text-4xl font-extrabold underline">Introduction</p>
+                        <p class="text-indigo-400 text-4xl font-extrabold underline">Components</p>
                         <br>
-                        <p class="text-indigo-400 text-3xl font-extrabold">Getting started</p>
-                        <p>Livewire is really good for making your web development more efficient because you spend less time recreating things and instead you can just reuse components.</p>
+                        <p class="text-indigo-400 text-3xl font-extrabold">Working with components</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis, consectetur cum doloribus error est et eveniet ex facilis incidunt minus molestias nesciunt optio sapiente sed, tempora temporibus voluptates? Quibusdam?</p>
+                        <br>
+                        <p class="text-indigo-400 text-3xl font-extrabold">Creating components</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis, consectetur cum doloribus error est et eveniet ex facilis incidunt minus molestias nesciunt optio sapiente sed, tempora temporibus voluptates? Quibusdam?</p>
+                        <br>
+                        <p class="text-indigo-400 text-3xl font-extrabold">Deleting components</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis, consectetur cum doloribus error est et eveniet ex facilis incidunt minus molestias nesciunt optio sapiente sed, tempora temporibus voluptates? Quibusdam?</p>
                     </div>
                 </div>
             </div>
